@@ -42,5 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (cadenita.equals("rojo"))
             transaction.replace(R.id.contenedorfragmentos, orojo).commit();
+        else
+            if (cadenita.equals("verde"))
+                transaction.replace(R.id.contenedorfragmentos, overde).commit();
     }
 }
